@@ -35,7 +35,7 @@ export default function AdminDashboard() {
   try {
 
     const response = await fetch(
-      "http://localhost:5000/send-bill-email",
+      "https://gharkul-backend.onrender.com/send-bill-email",
       {
         method: "POST",
         headers:{
